@@ -16,11 +16,11 @@ function randomTransaction() {
 }
 
 const dbName = 'week3';
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb://127.0.0.1:27017';
 
 MongoClient.connect(url, function(err, client) {
 	if (err) {
-		console.error('FATAL ERROR', e);
+		console.error('FATAL ERROR', err);
 		return;
 	}
   const db = client.db(dbName);
