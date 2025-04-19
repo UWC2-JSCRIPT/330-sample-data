@@ -8,7 +8,7 @@
 
 ```
 $ git clone git@github.com:UWC2-JSCRIPT/330-sample-data.git
-$ cd sample-data/week3
+$ cd 330-sample-data/week3
 $ npm install
 $ node gen-users.js
 ```
