@@ -13,3 +13,7 @@ $ npm install
 $ node gen-users.js
 ```
 
+```
+$ mongoimport --db=week3 --collection=books week3-aggregation/books.json
+$ mongoimport --db=week3 --collection=authors week3-aggregation/authors.json
+```
